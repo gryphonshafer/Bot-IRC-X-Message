@@ -12,10 +12,10 @@ my %WriteMakefileArgs = (
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },
-  "DISTNAME" => "Bot-IRC-X-Messsage",
+  "DISTNAME" => "Bot-IRC-X-Message",
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.009005",
-  "NAME" => "Bot::IRC::X::Messsage",
+  "NAME" => "Bot::IRC::X::Message",
   "PREREQ_PM" => {
     "DateTime" => 0,
     "DateTime::Format::Human::Duration" => 0,
@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     "blib" => "1.01",
     "constant" => 0
   },
-  "VERSION" => "1.01",
+  "VERSION" => "1.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
