@@ -1,6 +1,7 @@
 package Bot::IRC::X::Message;
 # ABSTRACT: Bot::IRC plugin for leaving messages for nicks
 
+use 5.012;
 use strict;
 use warnings;
 
