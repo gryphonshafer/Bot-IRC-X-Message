@@ -17,7 +17,7 @@ sub init {
     $bot->hook(
         {
             to_me => 1,
-            text  => qr/^message|tell|ask\s+(?<nick>\S+)\s+(?<msg>.+)\s*/,
+            text  => qr/^(?:message|tell|ask)\s+(?<nick>\S+)\s+(?<msg>.+)\s*/,
         },
         sub {
             my ( $bot, $in, $m ) = @_;
