@@ -105,9 +105,7 @@ You can look for additional information at:
 =for :list
 * L<Bot::IRC>
 * L<GitHub|https://github.com/gryphonshafer/Bot-IRC-X-Message>
-* L<CPAN|http://search.cpan.org/dist/Bot-IRC-X-Message>
 * L<MetaCPAN|https://metacpan.org/pod/Bot::IRC::X::Message>
-* L<AnnoCPAN|http://annocpan.org/dist/Bot-IRC-X-Message>
 * L<Travis CI|https://travis-ci.org/gryphonshafer/Bot-IRC-X-Message>
 * L<Coveralls|https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Message>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Bot-IRC-X-Message>
