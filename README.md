@@ -6,8 +6,8 @@ Bot::IRC::X::Message - Bot::IRC plugin for leaving messages for nicks
 
 version 1.04
 
-[![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Message.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Message)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-Message/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Message)
+[![build](https://github.com/gryphonshafer/Bot-IRC-X-Message/workflows/build/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-Message/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Message/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Message)
 
 # SYNOPSIS
 
@@ -20,7 +20,7 @@ version 1.04
 
 # DESCRIPTION
 
-This [Bot::IRC](https://metacpan.org/pod/Bot::IRC) plugin provides the means for the bot to keep messages for
+This [Bot::IRC](https://metacpan.org/pod/Bot%3A%3AIRC) plugin provides the means for the bot to keep messages for
 nicks.
 
     <user1> bot message user2 This is a message for you.
@@ -32,13 +32,11 @@ nicks.
 
 You can look for additional information at:
 
-- [Bot::IRC](https://metacpan.org/pod/Bot::IRC)
+- [Bot::IRC](https://metacpan.org/pod/Bot%3A%3AIRC)
 - [GitHub](https://github.com/gryphonshafer/Bot-IRC-X-Message)
-- [CPAN](http://search.cpan.org/dist/Bot-IRC-X-Message)
 - [MetaCPAN](https://metacpan.org/pod/Bot::IRC::X::Message)
-- [AnnoCPAN](http://annocpan.org/dist/Bot-IRC-X-Message)
-- [Travis CI](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Message)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Message)
+- [GitHub Actions](https://github.com/gryphonshafer/Bot-IRC-X-Message/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Message)
 - [CPANTS](http://cpants.cpanauthors.org/dist/Bot-IRC-X-Message)
 - [CPAN Testers](http://www.cpantesters.org/distro/T/Bot-IRC-X-Message.html)
 
@@ -48,7 +46,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2018 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
