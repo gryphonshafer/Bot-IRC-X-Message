@@ -19,16 +19,18 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "DateTime" => 0,
     "DateTime::Format::Human::Duration" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "exact" => 0
   },
   "TEST_REQUIRES" => {
+    "Bot::IRC" => 0,
+    "Bot::IRC::Store" => 0,
     "File::Spec" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
+    "Test2::V0" => 0,
     "Test::More" => 0,
-    "Test::Most" => 0,
-    "constant" => 0
+    "strict" => 0,
+    "warnings" => 0
   },
   "VERSION" => "1.04",
   "test" => {
@@ -38,14 +40,16 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Bot::IRC" => 0,
+  "Bot::IRC::Store" => 0,
   "DateTime" => 0,
   "DateTime::Format::Human::Duration" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "Test2::V0" => 0,
   "Test::More" => 0,
-  "Test::Most" => 0,
-  "constant" => 0,
+  "exact" => 0,
   "strict" => 0,
   "warnings" => 0
 );
