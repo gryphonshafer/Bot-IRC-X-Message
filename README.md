@@ -4,7 +4,7 @@ Bot::IRC::X::Message - Bot::IRC plugin for leaving messages for nicks
 
 # VERSION
 
-version 1.08
+version 1.09
 
 [![test](https://github.com/gryphonshafer/Bot-IRC-X-Message/workflows/test/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-Message/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Message/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Message)
@@ -42,7 +42,7 @@ You can look for additional information at:
 
 # AUTHOR
 
-Gryphon Shafer <gryphon@cpan.org>
+Gryphon Shafer <gryphon@goldenguru.com>
 
 # COPYRIGHT AND LICENSE
 
